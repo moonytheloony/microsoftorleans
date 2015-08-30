@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrainInterfaces", "GrainInterfaces\GrainInterfaces.csproj", "{DA2A90BB-99CD-4201-9397-9509A4770D82}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrainClasses", "GrainClasses\GrainClasses.csproj", "{55EF884D-34E5-4BF3-B500-F1249F135952}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestSilo", "TestSilo\TestSilo.csproj", "{CD546156-C0BC-414E-80A0-B9DD0D37B693}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileStorage", "FileStorage\FileStorage.csproj", "{FCAF562A-DA7F-4853-88D5-8F2CD0341C6D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication", "WebApplication\WebApplication.csproj", "{B82489A1-340F-4825-97BF-324D8A83BECE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{B760A499-680C-4C42-86E0-9D108388008F}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DA2A90BB-99CD-4201-9397-9509A4770D82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA2A90BB-99CD-4201-9397-9509A4770D82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA2A90BB-99CD-4201-9397-9509A4770D82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA2A90BB-99CD-4201-9397-9509A4770D82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55EF884D-34E5-4BF3-B500-F1249F135952}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55EF884D-34E5-4BF3-B500-F1249F135952}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55EF884D-34E5-4BF3-B500-F1249F135952}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55EF884D-34E5-4BF3-B500-F1249F135952}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD546156-C0BC-414E-80A0-B9DD0D37B693}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD546156-C0BC-414E-80A0-B9DD0D37B693}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD546156-C0BC-414E-80A0-B9DD0D37B693}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD546156-C0BC-414E-80A0-B9DD0D37B693}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCAF562A-DA7F-4853-88D5-8F2CD0341C6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCAF562A-DA7F-4853-88D5-8F2CD0341C6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCAF562A-DA7F-4853-88D5-8F2CD0341C6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCAF562A-DA7F-4853-88D5-8F2CD0341C6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B82489A1-340F-4825-97BF-324D8A83BECE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B82489A1-340F-4825-97BF-324D8A83BECE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B82489A1-340F-4825-97BF-324D8A83BECE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B82489A1-340F-4825-97BF-324D8A83BECE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
