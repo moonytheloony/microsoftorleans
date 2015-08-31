@@ -9,6 +9,10 @@ using System.Web.Routing;
 
 namespace WebApplication
 {
+    using Microsoft.WindowsAzure.ServiceRuntime;
+
+    using Orleans.Runtime.Host;
+
     public class WebApiApplication : System.Web.HttpApplication
     {
         protected void Application_Start()
@@ -18,8 +22,16 @@ namespace WebApplication
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
-
-            Orleans.GrainClient.Initialize(this.Server.MapPath("DevTestClientConfiguration.xml"));
+            if (RoleEnvironment.IsAvailable || RoleEnvironment.IsEmulated)
+            {
+                // azure
+                AzureClient.Initialize(this.Server.MapPath("AzureClientConfiguration.xml"));
+            }
+            else
+            {
+                //premise
+                Orleans.GrainClient.Initialize(this.Server.MapPath("DevTestClientConfiguration.xml"));
+            }
         }
     }
 }

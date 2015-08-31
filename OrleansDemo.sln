@@ -20,6 +20,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{B760A4
 		.nuget\NuGet.targets = .nuget\NuGet.targets
 	EndProjectSection
 EndProject
+Project("{CC5FD16D-436D-48AD-A40C-5A424C6E3E79}") = "CloudService", "CloudService\CloudService.ccproj", "{D263D2B8-EBC8-4C81-8A35-A2FB2A835C5E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrleansWorker", "OrleansWorker\OrleansWorker.csproj", "{56AE6666-ACD3-4839-9B19-A5391DA6DE6C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -46,6 +50,14 @@ Global
 		{B82489A1-340F-4825-97BF-324D8A83BECE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B82489A1-340F-4825-97BF-324D8A83BECE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B82489A1-340F-4825-97BF-324D8A83BECE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D263D2B8-EBC8-4C81-8A35-A2FB2A835C5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D263D2B8-EBC8-4C81-8A35-A2FB2A835C5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D263D2B8-EBC8-4C81-8A35-A2FB2A835C5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D263D2B8-EBC8-4C81-8A35-A2FB2A835C5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56AE6666-ACD3-4839-9B19-A5391DA6DE6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56AE6666-ACD3-4839-9B19-A5391DA6DE6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56AE6666-ACD3-4839-9B19-A5391DA6DE6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56AE6666-ACD3-4839-9B19-A5391DA6DE6C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
