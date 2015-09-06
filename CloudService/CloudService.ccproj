@@ -63,9 +63,6 @@
     <DiagnosticsConfiguration Include="OrleansWorkerContent\diagnostics.wadcfgx" />
     <DiagnosticsConfiguration Include="WebApplicationContent\diagnostics.wadcfgx" />
   </ItemGroup>
-  <ItemGroup>
-    <PublishProfile Include="Profiles\testwellProduction.azurePubxml" />
-  </ItemGroup>
   <!-- Import the target files for this project template -->
   <PropertyGroup>
     <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>

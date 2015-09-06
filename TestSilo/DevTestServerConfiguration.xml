@@ -5,7 +5,7 @@
       <!--<Provider Type="Orleans.Storage.MemoryStorage" Name="MemoryStore" />-->
       <!-- To use Azure storage, uncomment one of the following lines: -->
       <!--<Provider Type="Orleans.Storage.AzureTableStorage" Name="AzureStore" DataConnectionString="UseDevelopmentStorage=true" />-->
-      <!--<Provider Type="FileStorage.FileStorageProvider" Name="AzureStore" directory="E:\temp" />-->
+      <Provider Type="FileStorage.FileStorageProvider" Name="AzureStore" directory="E:\temp" />
     </StorageProviders>
     <SeedNode Address="localhost" Port="11111" />
   </Globals>
