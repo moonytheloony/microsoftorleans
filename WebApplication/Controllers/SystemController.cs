@@ -20,5 +20,12 @@ namespace WebApplication.Controllers
             var systemGrain = GrainClient.GrainFactory.GetGrain<ISystemGrain>(0, keyExtension: id);
             return systemGrain.GetTemprature();
         }
+
+        public void Post([FromBody] string deviceSystemCsv)
+        {
+            var csv = deviceSystemCsv.Split(',');
+            var deviceGrain = GrainClient.GrainFactory.GetGrain<IDeviceGrain>(Convert.ToInt32(csv[0]));
+            deviceGrain.JoinSystem(csv[1]).Wait();
+        }
     }
 }
