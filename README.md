@@ -1,2 +1,2 @@
 # microsoftorleans
-Training project for Introduction to Orleans. This project is deployed to Microsoft Azure. I will blog about it on my website http://rahulrai.in
+Training project for Introduction to Microsoft Orleans. This project can be deployed to Microsoft Azure.
